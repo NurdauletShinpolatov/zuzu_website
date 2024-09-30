@@ -1,0 +1,52 @@
+.navlinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.black {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--cl-black);
+    padding: 1rem 3rem;
+    transition: 0.2s ease-in-out;
+}
+.black:hover {
+    background: var(--cl-main-orange);
+    color: #ffffff;
+}
+
+.header__location,
+.header__basket,
+.header__language,
+.header__account_title
+{
+    display: none;
+}
+
+
+/* ============ media ========================= */
+@media only screen and (max-width: 680px) {
+    .header__location {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .header__basket {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .header__language {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .header__language_img {
+        width: 24px;
+        border-radius: 50%;
+    }
+}

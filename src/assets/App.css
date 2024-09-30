@@ -1,0 +1,10 @@
+:root {
+    --cl-black: #292929;
+    --cl-light-gray: #F5F5F5;
+    --cl-light-font: #808080;
+    --cl-main-orange: #EC8D1E;
+}
+
+body {
+    color: var(--cl-black);
+}

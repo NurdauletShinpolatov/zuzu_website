@@ -1,0 +1,102 @@
+.border {
+    border: 1px solid black;
+}
+.bg_red {
+    background-color: red;
+}
+
+.padding {
+    padding: 3rem 5%;
+    background: var(--cl-light-gray);
+}
+
+.container {
+    background: #ffffff;
+    border-radius: 1rem;
+}
+
+.container__header {
+    border-bottom: 2px solid var(--cl-light-gray);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.txt__branches {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.header__buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.header__button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 100px;
+    padding: 1rem 3rem;
+}
+
+.container__body {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.branch__container {
+    background: var(--cl-light-gray);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.branch__upper {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.7rem;
+}
+
+.branch__name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+}
+
+.flex > img {
+    transform: rotate(-90deg);
+}
+
+.address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--cl-light-font);
+    margin-bottom: 1rem;
+}
+
+.branch__bottom {
+    padding-top: 1rem;
+}
+
+.time {
+    color: var(--cl-light-font);
+    margin-bottom: 0.5rem;
+}
+
+.from_to_time {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}

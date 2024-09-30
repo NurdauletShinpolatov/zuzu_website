@@ -1,0 +1,46 @@
+.category {
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+.category__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 1.5rem;
+}
+
+.products {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+/* =============== Media queries =================================== */
+@media only screen and (max-width: 850px) {
+    .products {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .products {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+   .products {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+    }
+
+   .category__title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+   }
+}
